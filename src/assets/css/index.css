@@ -1,0 +1,145 @@
+
+body {
+  background: #fff;
+  color: #1b1b1b;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+i {
+  font-style: normal;
+}
+a {
+  color: inherit
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex_1 {
+  flex: 1;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+.flex-center-x {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  border: 0;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.turntable {
+  background: rgba(0, 0, 0, .4)
+}
+.van-tabs__content {
+  min-height: 80vh;
+}
+.nav {
+  width: 100%;
+  height: 80px;
+  background: #1b1b1b;
+  color: #929292;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  z-index: 1000
+}
+.nav .icon {
+  position: absolute;
+  left: 30px;
+  font-size: 30px;
+}
+.containers {
+  padding-top: 40px; /* no*/
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#app .van-nav-bar .van-icon {
+  color: #fff
+}
+#app .van-nav-bar {
+  height: 100px;
+  line-height: 100px;
+  background-color: #15181d;
+  letter-spacing: 2px
+}
+#app .van-loading {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+::-ms-input-placeholder {
+  color: #C7C7C7;
+}
+::-webkit-input-placeholder {
+  color: #C7C7C7;
+}
+::-moz-placeholder {
+  color: #C7C7C7;
+}
+#app .van-hairline--bottom::after {
+  border: none;
+}
+#app .van-hairline--top-bottom::after {
+  border: none;
+}
+
+
+#app .van-checkbox__icon .van-icon, #app .van-radio__icon .van-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+}
+#app .van-checkbox__icon, #app .van-checkbox__label, #app .van-radio__icon, #app .van-radio__label {
+  height: 30px;
+  line-height: 30px;
+}
+#app .van-swipe__indicators {
+  bottom: 34px;
+}
+#app .van-swipe__indicator {
+  width: 20px;
+  height: 20px;
+}
+#app .van-swipe__indicator:not(:last-child) {
+  margin-right: 28px;
+}
+
+.rule {
+  height: 70vh;
+  padding: 30px;
+}
+
+.rule img {
+  width: 100%;
+}
